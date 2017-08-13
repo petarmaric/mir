@@ -26,3 +26,18 @@ Non-standard or vendor specific identifiers must have their names prefixed with
 
 .. productionlist::
     non_standard_identifier : "_x_" `identifier`
+
+.. _mir-data-types:
+
+Data types
+----------
+
+MIR specification defines the following atomic data types:
+
+- integer numbers (signed)
+- floating point numbers
+- Unicode strings
+
+Data elements using non-standard or vendor specific data types must use a
+:ref:`non-standard identifier <non-standard-identifiers>` for their name and
+are beyond the scope of MIR specification.
