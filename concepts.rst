@@ -41,3 +41,15 @@ MIR specification defines the following atomic data types:
 Data elements using non-standard or vendor specific data types must use a
 :ref:`non-standard identifier <non-standard-identifiers>` for their name and
 are beyond the scope of MIR specification.
+
+.. _mir-layers:
+
+Layers
+------
+
+Layers are used to organize individual features and properties of a MIR data
+file into separate logical groups.
+
+Non-standard or vendor specific layers must use a :ref:`non-standard identifier
+<non-standard-identifiers>` for their name and are beyond the scope of MIR
+specification.
