@@ -1,6 +1,12 @@
 MIR concepts
 ============
 
+.. warning::
+
+    A valid MIR data file must contain all of the :ref:`layers <mir-layers>`,
+    :ref:`datasets <mir-datasets>` and :ref:`attributes <mir-attributes>`
+    defined by this specification, even if some of them are empty.
+
 Identifiers
 -----------
 
