@@ -42,6 +42,21 @@ Data elements using non-standard or vendor specific data types must use a
 :ref:`non-standard identifier <non-standard-identifiers>` for their name and
 are beyond the scope of MIR specification.
 
+.. _mir-datasets:
+
+Datasets
+--------
+
+A dataset is a rectangular 2D array (generally known as a *matrix*) of data
+elements, arranged in rows and columns.
+
+A dataset may use different data types for each column, but all data elements
+within a single column must be of the same data type.
+
+Non-standard or vendor specific datasets must use a :ref:`non-standard
+identifier <non-standard-identifiers>` for their name and are beyond the scope
+of MIR specification.
+
 .. _mir-layers:
 
 Layers
