@@ -42,6 +42,19 @@ Data elements using non-standard or vendor specific data types must use a
 :ref:`non-standard identifier <non-standard-identifiers>` for their name and
 are beyond the scope of MIR specification.
 
+.. _mir-attributes:
+
+Attributes
+----------
+
+An attribute is a small metadata object attached directly to a :ref:`dataset
+<mir-datasets>` or a :ref:`layer <mir-layers>`, used to describe their nature
+and/or intended usage.
+
+Non-standard or vendor specific attributes must use a :ref:`non-standard
+identifier <non-standard-identifiers>` for their name and are beyond the scope
+of MIR specification.
+
 .. _mir-datasets:
 
 Datasets
