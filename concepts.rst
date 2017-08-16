@@ -87,3 +87,9 @@ file into separate logical groups.
 Non-standard or vendor specific layers must use a :ref:`non-standard identifier
 <non-standard-identifiers>` for their name and are beyond the scope of MIR
 specification.
+
+A MIR data file is composed of the following layers:
+
+.. toctree::
+
+   layers/metadata
