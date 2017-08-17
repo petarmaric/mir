@@ -18,3 +18,4 @@ mesh-like data between different computational mechanics application formats.
     :maxdepth: 3
 
     concepts
+    file-format
