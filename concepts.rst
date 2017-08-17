@@ -92,4 +92,5 @@ A MIR data file is composed of the following layers:
 
 .. toctree::
 
+   layers/geometry
    layers/metadata
