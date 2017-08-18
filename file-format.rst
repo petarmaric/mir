@@ -65,3 +65,27 @@ Attribute
     Attributes are a critical part of what makes HDF5 a "self-describing"
     format. They are small named pieces of data attached directly to group or
     dataset objects. This is the official way to store metadata in HDF5.
+
+Mapping MIR concepts onto HDF5
+------------------------------
+
+In general, MIR concepts map cleanly onto their HDF5 counterparts:
+
+=========  =========
+MIR        HDF5
+=========  =========
+Data type  Data type
+Attribute  Attribute
+Dataset    Dataset
+Layer      Group
+=========  =========
+
+Detailed MIR/HDF5 data type map:
+
+- integer numbers are stored as 32-bit signed integers, using the
+  ``H5T_STD_I32LE`` HDF5 data type
+- floating point numbers are stored as IEEE 754 binary64, using the
+  ``H5T_IEEE_F64LE`` HDF5 data type
+- all Unicode strings are UTF-8 encoded
+
+Additionally, each MIR layer (HDF5 group) is a child of the root HDF5 group.
