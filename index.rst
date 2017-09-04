@@ -9,6 +9,11 @@ of mesh-like data.
 It has also been designed to serve as an intermediary step when converting the
 mesh-like data between different computational mechanics application formats.
 
+You can read the MIR specification `online`_, or download a `printable PDF`_.
+
+.. _`online`: http://mir-spec.readthedocs.io/
+.. _`printable PDF`: https://readthedocs.org/projects/mir-spec/downloads/
+
 .. todo::
 
     Reference the previous work done by Peter Iványi, especially his Open
