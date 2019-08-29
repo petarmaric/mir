@@ -21,6 +21,6 @@ If you find any bugs, or wish to propose new features `please let us know`_.
 If you'd like to contribute, simply fork `the repository`_, commit your changes
 and send a pull request. Make sure you add yourself to `AUTHORS`_.
 
-.. _`please let us know`: https://bitbucket.org/petar/mir/issues/new
-.. _`the repository`: http://bitbucket.org/petar/mir
-.. _`AUTHORS`: https://bitbucket.org/petar/mir/src/default/AUTHORS
+.. _`please let us know`: https://github.com/petarmaric/mir/issues/new
+.. _`the repository`: https://github.com/petarmaric/mir
+.. _`AUTHORS`: https://github.com/petarmaric/mir/blob/master/AUTHORS

@@ -2,7 +2,7 @@ Example programs and data files
 ===============================
 
 An example MIR data file, filled with random data, is available on `our
-Bitbucket repository <https://bitbucket.org/petar/mir/>`_, under
+GitHub repository <https://github.com/petarmaric/mir>`_, under
 ``examples/random-data.mir``.
 
 Creating a MIR data file
