@@ -62,7 +62,7 @@ copyright = author
 # built documents.
 #
 # The short major.minor.patch version.
-version = u'0.1.0'
+version = u'0.1.1'
 # The full version, including alpha/beta/rc tags (i.e. '1.0.0a2')
 # Use the 'dev' tag to note this version is still in active development (i.e. '1.1.0.dev')
 release = version # + u'.dev'
